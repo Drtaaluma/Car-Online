@@ -1,3 +1,31 @@
 <resources>
     <string name="app_name">CarOnline</string>
+    <string name="price_116_400">Price:$116,400</string>
+    <string name="car_information">Car Information</string>
+    <string name="color_green">Color: Green</string>
+    <string name="modem_2023_sport_car_860">Modem 2023 Sport Car 860</string>
+    <string name="price_200_400">Price:$200,400</string>
+    <string name="login">Login</string>
+    <string name="welcome">Welcome</string>
+    <string name="user_name">User Name</string>
+    <string name="password">password</string>
+    <string name="email">Email</string>
+    <string name="todo">TODO</string>
+    <string name="bmw">BMW</string>
+    <string name="modem_2023_bmw_760">Modem 2023 BMW 760</string>
+    <string name="sport_car">Sport Car</string>
+    <string name="color_white">Color: White</string>
+    <string name="rolly_roce">Rolly Roce</string>
+    <string name="modem_2023_rolly_roce">Modem 2023 Rolly Roce</string>
+    <string name="price_500_000">Price:$500,000</string>
+    <string name="todos">TODO</string>
+    <string name="color_dark_blue">Color: Dark Blue</string>
+    <string name="todoz">TODO</string>
+    <string name="today" />
+    <string name="rolly_roce_king">Rolly Roce King</string>
+    <string name="modem_2020">Modem 2020</string>
+    <string name="color_red">Color: Red</string>
+    <string name="order_now">Order Now</string>
+    <string name="wise">TODO</string>
+    <string name="price_800_000">Price:$800,000</string>
 </resources>
