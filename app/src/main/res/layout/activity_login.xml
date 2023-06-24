@@ -18,6 +18,7 @@
         tools:ignore="UselessParent">
 
         <TextView
+            android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/welcome"
@@ -56,6 +57,7 @@
                 android:autofillHints="" />
 
             <EditText
+                android:id="@+id/editTextTextPassword"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="43dp"
@@ -74,7 +76,8 @@
                 android:textColorHint="@color/white"
                 android:textSize="30sp"
                 android:textStyle="bold"
-                android:autofillHints="" />
+                android:autofillHints=""
+                tools:ignore="TextFields" />
 
             <EditText
                 android:layout_width="wrap_content"
@@ -98,7 +101,7 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/login"
+                android:id="@+id/button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
