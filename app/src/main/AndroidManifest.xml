@@ -12,9 +12,6 @@
         android:theme="@style/Theme.CarOnline"
         tools:targetApi="31">
         <activity
-            android:name=".ListOfCar"
-            android:exported="false" />
-        <activity
             android:name=".Form"
             android:exported="false" />
         <activity

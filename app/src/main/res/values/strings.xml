@@ -31,4 +31,8 @@
     <string name="car_rental">CAR RENTAL</string>
     <string name="sign_in">Sign in</string>
     <string name="welcome_in_our_services">WELCOME IN OUR SERVICES</string>
+    <string name="bmww">BMW</string>
+    <string name="make_order">Make order</string>
+    <string name="car_available">Car Available</string>
+    <string name="color_dark_blues">Color: Dark Blue</string>
 </resources>
