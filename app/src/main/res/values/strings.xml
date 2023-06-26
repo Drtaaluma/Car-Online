@@ -44,4 +44,5 @@
     <string name="address">Address</string>
     <string name="submit">Submit</string>
     <string name="log_in">LOG IN</string>
+    <string name="passwordy">Password</string>
 </resources>

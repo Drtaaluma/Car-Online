@@ -14,23 +14,20 @@ public class loginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        button =(Button) findViewById(R.id.button);
+        button=(Button) findViewById(R.id.button);
+
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openRegistration();
-
+                openCarList();
             }
         });
-    }
-    public void openRegistration(){
-        Intent intent = new Intent(this,Registration.class);
-        startActivity(intent);
-    }
-
-    public void openCarList(){
+        }
+        public void openCarList(){
         Intent intent = new Intent(this,CarList.class);
         startActivity(intent);
+
+
 
     }
 

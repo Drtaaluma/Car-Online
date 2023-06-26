@@ -125,8 +125,32 @@
             android:autofillHints=""
             tools:ignore="DuplicateIds,LabelFor,TextFields" />
 
+        <EditText
+            android:id="@+id/Pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="43dp"
+            android:background="@drawable/input_bg"
+            android:drawableStart="@drawable/sct"
+            android:drawablePadding="20dp"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPersonName"
+            android:paddingStart="20dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:autofillHints=""
+            tools:ignore="DuplicateIds,LabelFor,TextFields" />
+
         <Button
-            android:id="@+id/button"
+            android:id="@+id/submit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
