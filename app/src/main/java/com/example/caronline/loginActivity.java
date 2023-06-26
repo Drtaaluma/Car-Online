@@ -18,14 +18,20 @@ public class loginActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openCarList();
+                openRegistration();
 
             }
         });
     }
+    public void openRegistration(){
+        Intent intent = new Intent(this,Registration.class);
+        startActivity(intent);
+    }
+
     public void openCarList(){
         Intent intent = new Intent(this,CarList.class);
         startActivity(intent);
+
     }
 
 }
