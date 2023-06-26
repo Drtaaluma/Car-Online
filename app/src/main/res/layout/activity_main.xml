@@ -14,27 +14,21 @@
         android:layout_marginTop="10dp"
         android:layout_marginRight="10dp"
         android:orientation="vertical"
-        android:padding="15dp">
+        tools:ignore="UselessParent">
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="250dp"
             android:text="@string/car_rental"
             android:textAlignment="center"
             android:textColor="@color/white"
-            android:textSize="50sp"
+            android:textSize="30sp"
             android:textStyle="bold" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="200dp"
-            android:orientation="vertical">
-
-        </LinearLayout>
-
         <ProgressBar
             android:id="@+id/progressBar"
             android:layout_width="match_parent"

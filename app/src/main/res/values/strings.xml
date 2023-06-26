@@ -35,4 +35,13 @@
     <string name="make_order">Make order</string>
     <string name="car_available">Car Available</string>
     <string name="color_dark_blues">Color: Dark Blue</string>
+    <string name="sign_up">Sign up</string>
+    <string name="registration">REGISTRATION</string>
+    <string name="FullName" />
+    <string name="fullname">FullName</string>
+    <string name="emails">Email</string>
+    <string name="phonenumber">PhoneNumber</string>
+    <string name="address">Address</string>
+    <string name="submit">Submit</string>
+    <string name="log_in">LOG IN</string>
 </resources>

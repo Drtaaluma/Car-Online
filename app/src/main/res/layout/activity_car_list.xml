@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#BDC8D1"
     tools:context=".CarList">
-    
+
     <ViewFlipper
         android:id="@+id/viewFlipper"
         android:layout_width="match_parent"
@@ -20,28 +20,28 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/r" />
+<!--        <ImageView-->
+<!--            android:id="@+id/imageView"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="250dp"-->
+<!--            android:src="@drawable/r" />-->
 
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/rl2" />
+<!--        <ImageView-->
+<!--            android:id="@+id/imageView2"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="230dp"-->
+<!--            android:src="@drawable/rl2" />-->
 
         <ImageView
             android:id="@+id/imageView3"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="215dp"
             android:src="@drawable/c" />
 
         <ImageView
             android:id="@+id/imageView4"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="215dp"
             android:src="@drawable/b" />
 
     </ViewFlipper>

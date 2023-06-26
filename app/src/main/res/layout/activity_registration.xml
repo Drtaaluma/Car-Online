@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ground"
+    tools:context=".Registration">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/registration"
+            android:layout_marginBottom="50dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+<!--        full name-->
+        <EditText
+            android:id="@+id/fullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="43dp"
+            android:background="@drawable/input_bg"
+            android:drawableStart="@drawable/prs"
+            android:drawablePadding="20dp"
+            android:ems="10"
+            android:hint="@string/fullname"
+            android:inputType="textPersonName"
+            android:paddingStart="20dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:autofillHints=""
+            tools:ignore="LabelFor,TextFields" />
+
+<!--        email-->
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="43dp"
+            android:background="@drawable/input_bg"
+            android:drawableStart="@drawable/eml"
+            android:drawablePadding="20dp"
+            android:ems="10"
+            android:hint="@string/emails"
+            android:inputType="textPersonName"
+            android:paddingStart="20dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:autofillHints=""
+            tools:ignore="LabelFor,TextFields" />
+
+<!--        Phone number-->
+        <EditText
+            android:id="@+id/Phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="43dp"
+            android:background="@drawable/input_bg"
+            android:drawableStart="@drawable/phne"
+            android:drawablePadding="20dp"
+            android:ems="10"
+            android:hint="@string/phonenumber"
+            android:inputType="textPersonName"
+            android:paddingStart="20dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:autofillHints=""
+            tools:ignore="LabelFor,TextFields" />
+
+        <EditText
+            android:id="@+id/Address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="43dp"
+            android:background="@drawable/input_bg"
+            android:drawableStart="@drawable/addr"
+            android:drawablePadding="20dp"
+            android:ems="10"
+            android:hint="@string/address"
+            android:inputType="textPersonName"
+            android:paddingStart="20dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:autofillHints=""
+            tools:ignore="DuplicateIds,LabelFor,TextFields" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/input_bg"
+            android:paddingStart="20dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="50dp"
+            android:paddingBottom="10dp"
+            android:text="Submit"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
