@@ -92,7 +92,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="200dp"
                 android:layout_marginTop="10dp"
-                android:background="@drawable/input_bg"
                 android:padding="5dp"
                 android:textColor="#D30B0B"
                 android:textStyle="bold"
