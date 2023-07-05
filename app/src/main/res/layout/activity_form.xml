@@ -129,7 +129,7 @@
             tools:ignore="DuplicateIds,LabelFor,TextFields" />
 
         <Button
-            android:id="@+id/submit"
+            android:id="@+id/submit2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
